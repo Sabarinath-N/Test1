@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+
+#intro {
+    text-align: center;
+    background-color: rgb(49, 100, 187);
+    height: 800px;
+    color: white;
+    padding: 40px;
+    font-size: 20px;
+    
+}
+
+i{
+    padding: 20px;
+}
+.homecont{
+    
+    text-align  : left;
+    padding: 50px;
+    font-size: 15px;
+    row-gap: 50px;
+
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    
+}
+.link>a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 300;
+    transition: transform 1s;
+    
+    
+
+
+}
+.link>a:hover{
+    transform: scale(1.5,1.5);
+}
+#logo{
+    padding-bottom: 10px;
+}
+#logo img{
+    height: 200px;
+    width: 100%;
+}
+.welcome h1{
+   font-size: 50px;
+   font-weight: bolder  ;
+
+}
+h1{
+    color: rgb(49, 100, 187);
+    padding: 10px;
+}
+p{
+    padding: 10px;
+}
+#team{
+    padding: 30px;
+}
+#team img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding-right: 10px;
+ }
+ #team p{
+    
+    clear: right;
+    text-align: justify;
+ }
+ #team a{
+    text-decoration: none;
+    padding: 10px;
+    height: 300px;
+    width: 500px;
+    border: 1px solid blue;
+    background-color: blue  ;
+    color: white;
+ }
+ .gallery img{
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+ }
